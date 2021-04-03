@@ -29,7 +29,7 @@ This is followed by all the numbers that have lost to 25(ie, 20 15), in the same
 
 # How to compile your code:
 
-Compile using: gcc -Wall main.c client.c -o program
-and then run using: ./program
+Compile using: ```gcc -Wall main.c client.c -o program```
+and then run using: ```./program```
 
 ## Fine techniques course @PES University.
