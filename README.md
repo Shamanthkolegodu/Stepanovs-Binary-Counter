@@ -8,9 +8,9 @@ Implement Stepanov’s Binary counter to find the second largest element in an a
 
 # Function to be implemented
 
-- void find_second_greatest(int \*numbers, int length)
-  The function should give the output in the given format (check the screenshots). No deviations from the format are allowed. If the output is not according to the required format, you will be awarded 0 for this assignment.
-  The initial lines represent a match being played between the numbers on the LHS and the result of that match is on the RHS of the = sign. Each line except the last two lines represent the match played and it’s result. The last line is the second largest integer in the array.
+void find_second_greatest(int \*numbers, int length)
+The function should give the output in the given format (check the screenshots). No deviations from the format are allowed. If the output is not according to the required format, you will be awarded 0 for this assignment.
+The initial lines represent a match being played between the numbers on the LHS and the result of that match is on the RHS of the = sign. Each line except the last two lines represent the match played and it’s result. The last line is the second largest integer in the array.
 
 The output set will first have the highest of all elements of the two sets.
 This will be followed by the highest number in the losing set.
@@ -28,6 +28,7 @@ This is followed by all the numbers that have lost to 25(ie, 20 15), in the same
 # Data structures used: Adjacency List
 
 # How to compile your code:
+
 Compile using: gcc -Wall main.c client.c -o program
 Then run using: ./program
 
