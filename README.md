@@ -28,6 +28,7 @@ This is followed by all the numbers that have lost to 25(ie, 20 15), in the same
 # Data structures used: Adjacency List
 
 # How to compile your code:
+Compile using: gcc -Wall main.c client.c -o program
+Then run using: ./program
 
-Compile using:  gcc -Wall main.c client.c -o program
-Then run using:  ./program
+## Fine techniques course @PES University.
